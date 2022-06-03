@@ -8,8 +8,8 @@ import Response from '../Response';
 import { useRouter } from 'next/router';
 import ImageResults from '../components/ImageResults';
 
-export default function search({results}) {
-  console.log(results);
+export default function Search({results}) {
+  
   const router = useRouter();
   return (
       <>
